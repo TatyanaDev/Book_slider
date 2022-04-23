@@ -1,50 +1,50 @@
 body,
 h2,
 p {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 body {
+  font-family: Helvetica, sans-serif;
   background-color: #444;
   color: #333;
-  font-family: Helvetica, sans-serif;
 }
 
 #book {
-  background: url("book.png") no-repeat;
+  background: url("./../images/book.png") no-repeat;
+  margin-left: -400px;
   position: absolute;
-  width: 830px;
+  margin-top: -125px;
   height: 260px;
+  width: 830px;
   left: 50%;
   top: 50%;
-  margin-left: -400px;
-  margin-top: -125px;
 }
 
 #pages section {
-  background: url("paper.png") no-repeat;
-  display: block;
-  width: 400px;
-  height: 250px;
+  background: url("./../images/paper.png") no-repeat;
   position: absolute;
+  overflow: hidden;
+  display: block;
+  height: 250px;
+  width: 400px;
   left: 415px;
   top: 5px;
-  overflow: hidden;
 }
 
 #pages section > div {
-  display: block;
-  width: 400px;
-  height: 250px;
   font-size: 12px;
+  display: block;
+  height: 250px;
+  width: 400px;
 }
 
 #pages section p,
 #pages section h2 {
-  padding: 3px 35px;
-  line-height: 1.4em;
   text-align: justify;
+  line-height: 1.4em;
+  padding: 3px 35px;
 }
 
 #pages section h2 {
